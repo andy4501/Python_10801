@@ -1,0 +1,13 @@
+print ("請輸入身高")
+
+height=input()
+
+h=float(height)/100.00
+
+print ("請輸入體重")
+
+weight=float(input())
+
+BMI=weight/(h)*(h)
+
+print(BMI)
