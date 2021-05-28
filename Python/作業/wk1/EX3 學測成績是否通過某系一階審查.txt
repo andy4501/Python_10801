@@ -1,0 +1,19 @@
+ch,eng,math,soc,sci=14,15,11,13,12
+
+if(eng>=13)and(math>=10)and(sci>=10):
+
+    print("化學&&理學")
+
+    
+
+if(ch>=11)and(eng>=13)and(sci>=10):
+
+    print("生醫工")
+
+if(ch>=12)and(eng>=13)and(math>=10)and(soc>=10)and(sci>=10):
+
+    print("工程系統甲&乙")
+
+if(ch>=12)and(eng>=13)and(math>=10)and(soc>=10):
+
+    print("原子")
